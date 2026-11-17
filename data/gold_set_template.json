@@ -1,0 +1,24 @@
+[
+  {
+    "id": "SYN-G1",
+    "question": "Which test verifies requirement R-100?",
+    "category": "graph",
+    "author": "template",
+    "gold_answer": "Synthetic example only; replace with a verified answer from the source PDF.",
+    "gold_element_ids": [
+      "SYN-002"
+    ],
+    "verifier": "unverified",
+    "synthetic": true
+  },
+  {
+    "id": "U1",
+    "question": "What does IEEE 802.11be require for multi-link operation?",
+    "category": "unanswerable",
+    "author": "template",
+    "gold_answer": "",
+    "gold_element_ids": [],
+    "verifier": "pending",
+    "synthetic": false
+  }
+]

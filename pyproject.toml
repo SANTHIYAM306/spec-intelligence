@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spec-intelligence"
+version = "0.2.0"
+description = "Evidence-grounded technical specification QA with hybrid retrieval and graph-assisted workflow"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4"]
+pdf = ["pymupdf>=1.24"]
+parsers = ["pdfplumber>=0.11"]
+dense = ["sentence-transformers>=3.0", "numpy>=1.26"]
+ocr = ["pytesseract>=0.3.10", "Pillow>=10"]
+vision = ["torch>=2.2", "transformers>=4.49", "colpali-engine>=0.3.5", "Pillow>=10"]
+llm = ["torch>=2.2", "transformers>=4.49", "accelerate>=0.28"]
+
+[project.scripts]
+specqa = "spec_intelligence.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

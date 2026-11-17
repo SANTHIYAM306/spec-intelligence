@@ -1,0 +1,26 @@
+{
+  "usb-pd/USB_PD_R3.2_V1.2_2026_08_19.pdf": {
+    "doc_id": "usb_pd_base",
+    "revision": "R3.2 V1.2, 2026-08-19"
+  },
+  "usb-pd-cts/USB PD3 CTS Q3 2026 OR.pdf": {
+    "doc_id": "usb_pd_cts",
+    "revision": "Q3 2026, 2026-05-31"
+  },
+  "type-c/USB Type-C Spec R2.5 - March 2026.pdf": {
+    "doc_id": "usb_typec_base",
+    "revision": "Release 2.5, 2026-03"
+  },
+  "type-c-functional-test/USB_Type-C_Functional_Test_Specification.pdf": {
+    "doc_id": "usb_typec_functional_cts",
+    "revision": "Rev 0.91, 2024-03"
+  },
+  "shared-capacity/USB_Type-C_Shared_Capacity_Charger_Interoperability_CTS.pdf": {
+    "doc_id": "usb_typec_shared_capacity_cts",
+    "revision": "v1.0, 2025-10-21"
+  },
+  "usb4/USB4 Specification 2.0 November 2025 - CLEAN.pdf": {
+    "doc_id": "usb4_base",
+    "revision": "Version 2.0, 2025-11"
+  }
+}

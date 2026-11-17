@@ -1,0 +1,4 @@
+question_id,config,failure_stage,expected_evidence_ids,retrieved_evidence_ids,trace_path,root_cause,fix_or_followup,retest_result,reviewer
+FAIL-1,,,,,,,,,
+FAIL-2,,,,,,,,,
+FAIL-3,,,,,,,,,
